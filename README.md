@@ -13,3 +13,11 @@ To build this application, I will be leveraging the power of the following tools
 - [TypeScript](https://www.typescriptlang.org/): A statically typed superset of JavaScript that adds optional types, classes, and modules to the language.
 
 Each of these technologies plays a crucial role in creating a robust, scalable, and maintainable application.
+
+## Development Environment
+
+- [Node.js](https://nodejs.org/en/download/) - Runtime Environment
+- [Docker](https://www.docker.com/get-started/) - For containerizing database
+- [Visual Studio Code](https://code.visualstudio.com/Download) - Code Editor
+- [PostgreSQL](https://www.postgresql.org/download/) - Database
+- [NestJS](https://docs.nestjs.com/) - Node.js Framework
