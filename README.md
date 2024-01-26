@@ -55,3 +55,14 @@ Here's a quick breakdown of this configuration:
 - `environment`: Sets the username and password for the database.
 - `volumes`: Mounts a volume to persist database data, even if the container is stopped or removed.
 - `ports`: Exposes port `5432` on both the host machine and the container for database access.
+
+## What is Prisma?
+Prisma is an open-source database toolkit that makes it easy to reason about your data and how you interact with it.
+
+Prisma is a powerful tool that offers a wide range of features, including:
+- **Database Migrations**: Prisma makes it easy to evolve your database schema over time, without losing any data.
+- **Database Seeding**: Prisma allows you to seed your database with test data.
+- **Database Access**: Prisma provides a powerful API for accessing your database.
+- **Database Schema Management**: Prisma allows you to define your database schema using the Prisma Schema Language.
+- **Database Querying**: Prisma provides a powerful API for querying your database.
+- **Database Relationships**: Prisma allows you to define relationships between your database tables.
