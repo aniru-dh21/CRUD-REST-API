@@ -21,3 +21,9 @@ Each of these technologies plays a crucial role in creating a robust, scalable, 
 - [Visual Studio Code](https://code.visualstudio.com/Download) - Code Editor
 - [PostgreSQL](https://www.postgresql.org/download/) - Database
 - [NestJS](https://docs.nestjs.com/) - Node.js Framework
+
+## What is NestJS?
+
+NestJS is a progressive Node.js framework that comes with a plethora of advantages, including a powerful Command Line Interface (CLI). This CLI simplifies the process of creating a new NestJS application, making it easy to start a new project anytime, anywhere.
+
+One of the key benefits of NestJS is its rich set of built-in functionalities that significantly streamline the development process, making your life as a developer much easier.
