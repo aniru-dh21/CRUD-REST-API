@@ -27,3 +27,31 @@ Each of these technologies plays a crucial role in creating a robust, scalable, 
 NestJS is a progressive Node.js framework that comes with a plethora of advantages, including a powerful Command Line Interface (CLI). This CLI simplifies the process of creating a new NestJS application, making it easy to start a new project anytime, anywhere.
 
 One of the key benefits of NestJS is its rich set of built-in functionalities that significantly streamline the development process, making your life as a developer much easier.
+
+## Docker Configuration of the Project
+To store our recipes REST API, we'll use a PostgreSQL database. Docker will help us containerize this database ensuring a smooth setup and execution, regardless of the environment.
+
+The configuration of the project(`docker-compose.yml`):
+```yml
+version: '3.8'
+services:
+  postgres:
+    image: postgres:13.5
+    restart: always
+    environment:
+      - POSTGRES_USER=recipe
+      - POSTGRES_PASSWORD=RecipePassword
+    volumes:
+      - postgres:/var/lib/postgresql/data
+    ports:
+      - '5444:5432'
+volumes:
+  postgres:
+```
+
+Here's a quick breakdown of this configuration:
+- `image: postgres:13.5`: Specifies the Docker image for the PostgreSQL database.
+- `restart: always`: Ensures the container restarts if it stops.
+- `environment`: Sets the username and password for the database.
+- `volumes`: Mounts a volume to persist database data, even if the container is stopped or removed.
+- `ports`: Exposes port `5432` on both the host machine and the container for database access.
